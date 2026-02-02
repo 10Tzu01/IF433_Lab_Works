@@ -4,7 +4,6 @@ fun main() {
     var name: String = "John Thor"
     var score: Int = 80
 
-
     println("Nama: $name, Nilai: $score")
 
     val grade = when (score) {
