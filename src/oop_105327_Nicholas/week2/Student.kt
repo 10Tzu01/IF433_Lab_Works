@@ -3,6 +3,7 @@ package oop_105327_Nicholas.week2
 class Student (
     val name: String,
     val nim: String,
+    var gpa: Double = 0.0,
     var major: String
 ){
     constructor(name: String, nim: String) : this(name, nim, "Non-Matriculated"){
