@@ -6,4 +6,5 @@ fun main() {
     player.addXp(-50)
 
     player.addXp(150)
+
 }
