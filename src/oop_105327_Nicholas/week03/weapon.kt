@@ -20,6 +20,7 @@ class Weapon(val name: String) {
             }
         }
 
+
     val tier: String
         get() = when {
             damage > 800 -> "Legendary"
