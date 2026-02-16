@@ -13,6 +13,7 @@ fun main() {
 
     var enemyHp = 100
 
+
     while (hero.isAlive() && enemyHp > 0) {
         println("\n1. Attack\n2. Run")
         when (readLine()!!.toInt()) {
