@@ -4,6 +4,10 @@ fun main(){
     val gametitle = "Beat Saber"
     val price: Int = 350000
     val finalprice = calculatediscount(price)
+
+    printreceipt(title = gametitle , finalprice = finalprice)
+
+
 }
 
 
