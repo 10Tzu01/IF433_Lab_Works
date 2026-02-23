@@ -5,9 +5,11 @@ fun main(){
     val price: Int = 350000
     val finalprice = calculatediscount(price)
 
+    var usernote: String? = null
     printreceipt(title = gametitle , finalprice = finalprice)
 
 
+    println("Note: ${usernote ?: "Empty"}")
 }
 
 
