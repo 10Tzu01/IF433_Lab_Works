@@ -28,6 +28,18 @@ fun main(){
     println("Luas Pesergi Panjang 5x10 = ${math.hitungLuas(5,10)}")
     println("Luas Lingkaran (r 7.0)= ${math.hitungLuas(7.0)}")
 
+    println("---Tugas Mandiri 2 Payment System ---")
+    val myEWallet = EWallet("Stewie Griffin", 50000.0)
+    val myCreditCard = CreditCard("Stewie Griffin", 100000.0)
+
+    val paymentList: List<PaymentMethod> = listOf(myEWallet, myCreditCard)
+
+    for (payment in paymentList){
+        println("Payment process 75000")
+        payment.processPayment(750000.0)
+
+    }
+
 
 
 }
