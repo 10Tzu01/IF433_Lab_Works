@@ -22,5 +22,12 @@ fun main(){
         println("-------------------------")
     }
 
+    println("---tugas Mandiri overloading---")
+    val math = MathHelper()
+    println("\n Luas Pesergi  5 sides = ${math.hitungLuas(5)}")
+    println("Luas Pesergi Panjang 5x10 = ${math.hitungLuas(5,10)}")
+    println("Luas Lingkaran (r 7.0)= ${math.hitungLuas(7.0)}")
+
+
 
 }
