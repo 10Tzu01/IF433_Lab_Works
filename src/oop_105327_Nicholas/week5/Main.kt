@@ -38,6 +38,12 @@ fun main(){
         println("Payment process 75000")
         payment.processPayment(750000.0)
 
+        if(payment is EWallet){
+            println("Test Recovery: Add Ewallet")
+            payment.topUp(50000.0)
+            payment.processPayment(750000.0)
+        }
+
     }
 
 
