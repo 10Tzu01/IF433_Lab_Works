@@ -9,6 +9,7 @@ class SmartLamp(
         println("Lampu $name dinyalakan.")
     }
 
+
     override fun turnOff(){
         println("Lampu $name dimatikan.")
     }

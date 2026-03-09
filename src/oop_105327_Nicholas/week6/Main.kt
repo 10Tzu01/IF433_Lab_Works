@@ -29,6 +29,8 @@ fun main(){
     hub.addDevice(nestDapur)
     hub.addDevice(ezvizGarasi)
 
+
+
     hub.activateSecurityMode()
     hub.turnOffAllSwitches()
 }
