@@ -1,6 +1,6 @@
 package oop_105327_Nicholas.week6
 
-interface GadgeInterfaces {
+interface Camera {
     fun turnOn() {
         println("Lensa kamera terbuka dan sensor aktif")
     }
