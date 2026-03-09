@@ -19,4 +19,16 @@ fun main(){
     processCheckout(pay1, 50000.0)
     processCheckout(pay2, 150000.0)
 
+
+    val lampuTamu = SmartLamp("L01", "Ruang Tamu")
+    val nestDapur = SmartLamp("S01", "Google Nest Dapur")
+    val ezvizGarasi = SmartLamp("C01", "Ezviz Garasi")
+
+    val hub = SmartHomeHub()
+    hub.addDevice(lampuTamu)
+    hub.addDevice(nestDapur)
+    hub.addDevice(ezvizGarasi)
+
+    hub.activateSecurityMode()
+    hub.turnOffAllSwitches()
 }
