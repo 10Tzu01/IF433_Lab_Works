@@ -1,4 +1,4 @@
-package oop_105327_Nicholas.week6.E
+package oop_105327_Nicholas.week6
 
 interface PaymentMethod {
     fun pay(amount: Double)
