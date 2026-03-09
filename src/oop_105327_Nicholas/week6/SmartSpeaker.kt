@@ -12,7 +12,7 @@ class SmartSpeaker(
         println("Smart speaker $name standby")
     }
 
-    fun playMusic(song; String){
+    fun playMusic(song: String){
         println("Play lagu $song dari Spotify")
     }
 }
