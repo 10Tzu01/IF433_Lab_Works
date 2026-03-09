@@ -1,0 +1,42 @@
+[33m3fcab34[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Checkpoint 10: Commit with: week01: (tugas 2) setup GameStore file.
+[33madc266e[m[33m ([m[1;31morigin/main[m[33m)[m week04: (task 2) test Employee hierarchy in main
+[33m0bbb867[m week04: (task 2) create Developer class
+[33mbd64bea[m week04: (task 2) create Manager class overriding Employee
+[33md080181[m week04: (task 2) create parent class Employee
+[33mfeb33f2[m week04: (task 1) test ElectricCar in main
+[33mf97ad62[m week04: (task 1) create ElectricCar class with final override
+[33mfd27763[m week04: test Vehicle and Car in main
+[33m68a465f[m week04: implement super keyword in Car accelerate
+[33m79967a8[m week04: override honk method in Car
+[33mac75fe8[m week04: create Car class extending Vehicle
+[33m285af3e[m week04: create basic Vehicle parent class
+[33m082a617[m week02: (task 2) implement the game
+[33ma5119fa[m week02: (task 2) create Hero class
+[33m12f65ef[m week03: (task 2) implement Player testing in main
+[33mcf9abb5[m week03: (task 2) create Player class with private xp
+[33m7d4b4e4[m week03: (task 1) implement Weapon testing in main
+[33m38a95e0[m week03: (task 1) create Weapon class with validation
+[33m5f8efc0[m week03: cleanup code
+[33m7defb42[m week03: test all encapsulation logic in main
+[33m8a140a4[m week03: add private property
+[33m7472d7b[m week03: fix setter using backing field
+[33m61ffcb1[m week03: simulate stack overflow error in setter
+[33mb22729f[m week03: create basic Employee class
+[33md335b51[m week02: (task 1) create Loan class with default args --- implement library input system
+[33me04ef84[m week02: implement selection logic for constructors
+[33m90f47f7[m week02: challenge refactor primary constructor using default args
+[33m3bbbb59[m week02: add secondary constructor
+[33m3eb644b[m week02: implement user input and pre-validation
+[33m1dfb927[m week02: add warning validation in init block
+[33m2ca026c[m week02: create basic Student class structure
+[33m67715dd[m week01: (tugas 1) add legacy CircleCalculator code
+[33m335c29b[m week01: (tugas 1) add legacy CircleCalculator code
+[33mfce58a1[m week01: implement null safety check
+[33m7eac1cc[m week01: add calculateStatus function
+[33m00054ab[m week01: implement grading logic using when expression
+[33m8385e38[m week01: refactor to use val and string templates
+[33mf9230dd[m week01: initial setup and procedural code
+[33mde61a32[m week01: initial setup and procedural code
+[33m101363b[m week01: initial setup and procedural code
+[33mbe14157[m week01: initial setup and procedural code
+[33m430a6c0[m week01: initial setup and procedural code
