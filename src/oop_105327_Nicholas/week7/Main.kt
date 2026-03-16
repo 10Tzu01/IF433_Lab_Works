@@ -23,6 +23,7 @@ fun main(){
     println(reg1)
     println("Sama? ${data1 == data2}")
 
+
     val data3 = data1.copy(age = 23)
     println("Hasil Copy: $data3")
 
