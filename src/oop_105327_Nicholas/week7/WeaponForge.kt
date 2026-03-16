@@ -1,5 +1,6 @@
 package oop_105327_Nicholas.week7
 
+
 class Weapon private constructor(
     val item: GameItem,
     val durability: Int
