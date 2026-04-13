@@ -4,5 +4,6 @@ public class JavaPaymentService {
 
     public static String processPayment(String productID){
         return "TRX-" + productID + "-SUCCESS";
+
     }
 }
