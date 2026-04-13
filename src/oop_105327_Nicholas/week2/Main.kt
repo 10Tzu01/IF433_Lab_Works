@@ -2,6 +2,7 @@ package oop_105327_Nicholas.week2
 
 import java.util.Scanner
 
+
 fun main() {
     val scanner = Scanner(System.`in`)
 
@@ -37,5 +38,6 @@ fun main() {
 
         println("Status: Pendaftaran Selesai.")
     }
+
 
 }

@@ -1,6 +1,6 @@
 package oop_105327_Nicholas.week1
 
-fun main(args: Array<String>){
+fun main(){
     var radius : Double = 7.0
     var pi : Double = 3.14
 
@@ -8,6 +8,7 @@ fun main(args: Array<String>){
     println("Radius: " + radius + ", Area: " + area)
 
     checkSize(area)
+
 }
 
 fun checkSize(area: Double) {
