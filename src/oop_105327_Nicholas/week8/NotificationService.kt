@@ -13,4 +13,5 @@ class Notification {
             println("User ${user.name} tidak memiliki  email.")
         }
 
-    }    }
+    }
+}
