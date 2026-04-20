@@ -1,0 +1,12 @@
+package oop_105327_Nicholas.week9
+
+fun main(){
+    val tradeHistory = listOf(
+        TradeLog("BTCUSDT", "LONG", 20, 15.5, "CLOSED"),
+        TradeLog("ETHUSDT", "SHORT", 10, -5.2, "CLOSED"),
+        TradeLog("BTCUSDT", "LONG", 15, 8.3, "CLOSED"),
+        TradeLog("XRPUSDT", "SHORT", 5, -12.0, "CLOSED"),
+        TradeLog("ETHUSDT", "LONG", 25, 20.1, "OPEN"),
+        TradeLog("BNBUSDT", "LONG", 10, 5.0, "CLOSED")
+    )
+}
