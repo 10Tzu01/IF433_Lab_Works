@@ -34,4 +34,13 @@ fun main() {
         println(it)
     }
 
+    println("\n--- Losing trades ---")
+
+    worstPerformersString.forEach {
+        println(it)
+    }
+
+    println("\n--- Unique Paris ---")
+        println(uniquePairs)
+
 }
