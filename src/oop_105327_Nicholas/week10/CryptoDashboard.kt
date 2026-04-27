@@ -21,4 +21,6 @@ fun main(){
     txRepo.getAll().forEach {
         println("ID: ${it.id}, Amount: ${it.amount}")
     }
+
+
 }
