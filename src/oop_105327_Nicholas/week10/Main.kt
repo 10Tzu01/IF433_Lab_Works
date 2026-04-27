@@ -1,4 +1,4 @@
-package oop_105327_Nicholas.week9
+package oop_105327_Nicholas.week10
 
 fun main(){
     println("===Test Generic Class===")
