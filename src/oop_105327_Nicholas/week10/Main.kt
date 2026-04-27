@@ -8,3 +8,5 @@ fun main(){
     println("Isi inBox: ${inBox.value}")
     println("Isi stringBox: ${stringBox.value}")
 }
+
+//mainkt
