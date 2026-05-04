@@ -37,4 +37,8 @@ fun main(){
     searchResult?.let{
         println(it.diagnose())
     }
+
+    with(homeDevice){
+        println("Total perangkat: ${this.size}")
+    }
 }
