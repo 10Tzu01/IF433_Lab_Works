@@ -47,4 +47,9 @@ fun main(){
     }
 
     println("Total days: $totalPower Watt")
+
+    println("\n===Smart Home Device ===")
+    homeDevice.forEach{
+        println(it.diagnose())
+    }
 }
