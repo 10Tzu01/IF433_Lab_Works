@@ -14,6 +14,10 @@ fun dispenseKibble(
         throw DispenserJamException()
     }
 
+    if (requestedGram > availableGram) {
+        throw FoodEmptyException(requestedGram, availableGram)
+    }
+
 
     return availableGram
 }
