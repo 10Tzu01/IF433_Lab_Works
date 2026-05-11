@@ -19,5 +19,6 @@ fun dispenseKibble(
     }
 
 
-    return availableGram
+    println("Kibble berhasil dikeluarkan!")
+    return availableGram - requestedGram
 }
