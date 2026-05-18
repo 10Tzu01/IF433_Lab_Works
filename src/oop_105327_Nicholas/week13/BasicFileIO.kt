@@ -18,6 +18,7 @@ fun main(){
     val lines = file.readLines()
     lines.forEachIndexed { index, line ->
         println("Isi Index $index : $line")
+
     }
 }
 
