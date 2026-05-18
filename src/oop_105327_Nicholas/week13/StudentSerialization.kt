@@ -2,4 +2,9 @@ package oop_105327_Nicholas.week13
 import java.io.File
 import java.io.FileNotFoundException
 
-data class student(val name: String, val age: Int, val gpa:Double)
+data class Student(val name: String, val age: Int, val gpa:Double)
+
+fun fromCsv(line: String): Student {
+    val parts = line.split(",")
+    return Student(parts[0], parts[1].toInt(), parts[2].toDouble())
+}
