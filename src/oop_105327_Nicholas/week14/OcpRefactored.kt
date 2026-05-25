@@ -9,5 +9,6 @@ class StudentDiscound : DiscountStrategy{
 }
 
 class MemberDiscount : DiscountStrategy{
+
     override fun apply(price : Double) = price * 0.85
 }
