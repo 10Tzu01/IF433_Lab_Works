@@ -1,0 +1,13 @@
+package oop_105327_Nicholas.week14
+
+interface DiscountStrategy{
+    fun apply(price: Double): Double
+}
+
+class StudentDiscound : DiscountStrategy{
+    override fun apply(price : Double) = price * 0.80
+}
+
+class MemberDiscount : DiscountStrategy{
+    override fun apply(price : Double) = price * 0.85
+}
