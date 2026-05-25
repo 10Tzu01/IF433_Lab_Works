@@ -61,13 +61,51 @@ class SafeOrderProcessor(
     private val notifier: NotificationService
 ){
 
-    fun processOrder(price: Double){
+    fun processOrder(
+        price: Double,
+        pricingStrategy: PricingStrategy
+    ){
 
-        repo.saveOrder(price)
+        val finalPrice =
+            pricingStrategy.calculate(price)
+
+        repo.saveOrder(finalPrice)
 
         notifier.sendNotification(
-            "Order success"
+            "Order success. Final price = $finalPrice"
         )
     }
 }
 
+interface PricingStrategy{
+    fun calculate(price: Double): Double
+}
+
+class VipPricing : PricingStrategy{
+    override fun calculate(price: Double): Double{
+        return price * 0.8
+    }
+}
+
+class RegularPricing : PricingStrategy{
+    override fun calculate(price: Double): Double{
+        return price * 0.95
+    }
+}
+
+fun main(){
+
+    val repo = CsvOrderRepository()
+    val notifier = EmailNotifier()
+
+    val processor =
+        SafeOrderProcessor(
+            repo,
+            notifier
+        )
+
+    processor.processOrder(
+        100000.0,
+        VipPricing()
+    )
+}
