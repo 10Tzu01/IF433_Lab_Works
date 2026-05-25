@@ -14,4 +14,5 @@ class UserManager{
     fun sendWelcomeEmail(user: User) {
         println("Sending email to:  ${user.name}")
     }
+
 }
